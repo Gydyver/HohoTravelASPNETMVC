@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HohoTraveltestlagiModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Admin">
+    <Key>
+      <PropertyRef Name="AdmID" />
+    </Key>
+    <Property Name="AdmID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AdmName" Type="varchar" MaxLength="50" />
+    <Property Name="AdmEmail" Type="varchar" MaxLength="50" />
+    <Property Name="AdmPhNo" Type="varchar" MaxLength="50" />
+    <Property Name="Password" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Booking">
+    <Key>
+      <PropertyRef Name="BookID" />
+    </Key>
+    <Property Name="BookID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BookDate" Type="date" />
+    <Property Name="PackID" Type="int" />
+    <Property Name="CustName" Type="varchar" MaxLength="50" />
+    <Property Name="CustEmail" Type="varchar" MaxLength="50" />
+    <Property Name="CustPhNum" Type="varchar" MaxLength="15" />
+    <Property Name="TravelDate" Type="date" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="BookMessage" Type="varchar(max)" />
+    <Property Name="RekNo" Type="varchar" MaxLength="50" />
+    <Property Name="RekName" Type="varchar" MaxLength="50" />
+    <Property Name="BookStatus" Type="varchar" MaxLength="20" />
+    <Property Name="IsDeleted" Type="varchar" MaxLength="1" />
+    <Property Name="BookPrice" Type="int" />
+  </EntityType>
+  <EntityType Name="Package">
+    <Key>
+      <PropertyRef Name="PackID" />
+    </Key>
+    <Property Name="PackID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PackName" Type="varchar" MaxLength="50" />
+    <Property Name="PackTrip" Type="varchar(max)" />
+    <Property Name="PackPrice" Type="int" />
+    <Property Name="IsDeleted" Type="varchar" MaxLength="1" />
+  </EntityType>
+  <Association Name="FK__Booking__PackID__145C0A3F">
+    <End Role="Package" Type="Self.Package" Multiplicity="0..1" />
+    <End Role="Booking" Type="Self.Booking" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Package">
+        <PropertyRef Name="PackID" />
+      </Principal>
+      <Dependent Role="Booking">
+        <PropertyRef Name="PackID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HohoTraveltestlagiModelStoreContainer">
+    <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Booking" EntityType="Self.Booking" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Package" EntityType="Self.Package" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Booking__PackID__145C0A3F" Association="Self.FK__Booking__PackID__145C0A3F">
+      <End Role="Package" EntitySet="Package" />
+      <End Role="Booking" EntitySet="Booking" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,9 @@
+cara cara database first method 
+1. bikin database
+2. bikin project di visual studio
+3. solution explorer(disebelah kanan)
+4. click kanan di nama projectnya, pilih "ADO.NET Entity Data Model"
+5. kasih nama modelnya bebas, klik "OK"
+6. dari 4 pilihan, pilih yang paling kiri
+7. tulis nama servernya. ambil di sql server, di propertiesnya ngambil nama servernya
+8. pilih nama databasenya, klik ok

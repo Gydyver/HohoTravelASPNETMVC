@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hoho Travel</title>
+
+    <!-- Meta-Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Space Register Form a Responsive Web Template, Bootstrap Web Templates, Flat Web Templates, Android Compatible Web Template, Smartphone Compatible Web Template, Free Webdesigns for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design">
+    @*<script>
+            addEventListener("load", function () {
+                setTimeout(hideURLbar, 0);
+            }, false);
+
+            function hideURLbar() {
+                window.scrollTo(0, 1);
+            }
+        </script>*@
+    @*<link href="//fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">*@
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <!-- //Meta-Tags -->
+    <!-- css files -->
+    @Styles.Render("~/Content/css-userbook")
+    @Styles.Render("~/Content/css-form")
+    <!-- css files -->
+    <!-- Online-fonts -->
+    <link href="//fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+    <!-- //Online-fonts -->
+
+</head>
+
+<body>
+    @Html.Partial("NavUserBook")
+
+    @RenderBody()
+    <footer>
+        @Html.Partial("Footer")
+    </footer>
+    </div>
+
+    @RenderSection("scripts", required: false)
+
+    @RenderSection("styles", required: false)
+
+    <script>
+        $(function () {
+            $("#datepicker").datepicker({ minDate: 0 });
+        });
+    </script>
+</body>
+</html>

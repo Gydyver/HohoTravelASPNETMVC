@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+@if (Session["Adm_ID"] != null)
+{
+    <text>Welcome @Session["Adm_Email"].ToString()</text>
+    <br />
+
+    <!-- services -->
+    <div class="services py-5" id="what" style="height: 580px;">
+        <div class="container py-xl-5 py-lg-3">
+            <h3 class="title-w3 mb-xl-5 mb-sm-4 mb-2 text-center text-wh font-weight-bold">What We Do?</h3>
+            <div class="row w3pvtits-services-row text-center">
+                <div class="col-lg-6 serv-w3mk mt-5">
+                    <div class="w3pvtits-services-grids">
+                        <span class="fa fa-users ser-icon" aria-hidden="true"></span>
+<br><br><br>                        @*<h4 class="text-bl my-4">Booking</h4>*@
+                        @Html.ActionLink("Booking", "Index", "Bookings", new { @class = "text-bl my-4" },null)
+                    </div>
+                </div>
+                <div class="col-lg-6 serv-w3mk mt-5">
+                    <div class="w3pvtits-services-grids">
+                        <span class="fa fa-leanpub ser-icon" aria-hidden="true"></span>
+<br><br><br>                        @*<h4 class="text-bl my-4">Package</h4>*@
+                        @Html.ActionLink("Package", "Index", "Packages", new { @class = "text-bl my-4" }, null)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //services -->
+    
+}

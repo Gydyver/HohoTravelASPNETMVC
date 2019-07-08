@@ -1,0 +1,163 @@
+﻿@model IEnumerable<HohoTraveltestlagi.Package>
+
+@{
+    ViewBag.Title = "tesIndex";
+    Layout = "~/Views/Shared/_LayoutUserHome.cshtml";
+}
+
+<body>
+    <!-- banner -->
+    <div class="main-banner">
+        <div class="container-fluid">
+            <div class="style-banner ">
+            </div>
+        </div>
+    </div>
+    <!-- //banner -->
+    <!-- service -->
+    <section class="service py-lg-4 py-md-3 py-sm-3 py-3" id="service">
+        <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
+            <div class="row">
+                <div class="col-lg-4 main-title-text">
+                    <h3 class="title">What We Offers & Services</h3>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6 service-grid-wthree text-center">
+                            <div class="ser-fashion-grid">
+                                <div class="about-icon mb-md-4 mb-3">
+                                </div>
+                                <div class="ser-sevice-grid">
+                                    <h4 class="pb-3">Private Vechile</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 service-grid-wthree text-center">
+                            <div class="ser-fashion-grid">
+                                <div class="about-icon mb-md-4 mb-3">
+                                    <span class="fa fa-free-code-camp" aria-hidden="true"></span>
+                                </div>
+                                <div class="ser-sevice-grid">
+                                    <h4 class="pb-3">Meals</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 service-grid-wthree text-center">
+                            <div class="ser-fashion-grid">
+                                <div class="about-icon mb-md-4 mb-3">
+                                    <span class="fa fa-clone" aria-hidden="true"></span>
+                                </div>
+                                <div class="ser-sevice-grid">
+                                    <h4 class="pb-3">Enterence Fee</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 mt-lg-4 mt-3 service-grid-wthree text-center">
+                            <div class="ser-fashion-grid">
+                                <div class="about-icon mb-md-4 mb-3">
+                                    <span class="fa fa-linode" aria-hidden="true"></span>
+                                </div>
+                                <div class="ser-sevice-grid">
+                                    <h4 class="pb-3">Tipping Guide</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 mt-lg-4 mt-3 service-grid-wthree text-center">
+                            <div class="ser-fashion-grid">
+                                <div class="about-icon mb-md-4 mb-3">
+                                    <span class="fa fa-binoculars" aria-hidden="true"></span>
+                                </div>
+                                <div class="ser-sevice-grid">
+                                    <h4 class="pb-3">Services 5</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 mt-lg-4 mt-3 service-grid-wthree text-center">
+                            <div class="ser-fashion-grid">
+                                <div class="about-icon mb-md-4 mb-3">
+                                    <span class="fa fa-bookmark-o" aria-hidden="true"></span>
+                                </div>
+                                <div class="ser-sevice-grid">
+                                    <h4 class="pb-3">Services 6</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh urna</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//service -->
+    <!-- booking -->
+    <section class="py-lg-4 py-md-3 py-sm-3 py-3">
+        <div class="container py-lg-5 py-md-4 py-sm-4 py-3">
+            <h3 class="title text-center mb-2">Booking</h3>
+            <div class="title-w3ls-text text-center mb-lg-5 mb-md-4 mb-sm-4 mb-3">
+                <h6>Choose Adventure</h6>
+            </div>
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    if (item.IsDeleted == "1")
+                    {
+                        <div class="col-lg-3 col-md-6 col-sm-6 my-3 adventure-trip-grids">
+                            <div class="discount-adventure-one">
+                                <div class="rating-start ">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <span class="fa fa-star" aria-hidden="true"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="fa fa-star" aria-hidden="true"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="fa fa-star" aria-hidden="true"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="fa fa-star-half-o" aria-hidden="true"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="fa fa-star-o" aria-hidden="true"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="discount-txt">
+
+                                @Html.DisplayFor(modelItem => item.PackName, new { htmlAttributes = new { @class = "h6" } })
+                                <br />
+                                @Html.DisplayFor(modelItem => item.PackTrip, new { htmlAttributes = new { @class = "pt-lg-3 pt-2" } })
+                                <div class="row mt-3">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 button-arrow ">
+                                        @Html.ActionLink("Book Here", "Create", "Bookings", new { id = item.PackID, price = item.PackPrice }, null)
+                                        @*<a href="booking.html" class="btn">Book Here</a>*@
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 price-rate">
+                                        @Html.DisplayFor(modelItem => item.PackPrice, new { htmlAttributes = new { @class = "h6" } })
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </section>
+    <!--//booking -->
+</body>

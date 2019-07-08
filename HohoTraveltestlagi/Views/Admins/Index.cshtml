@@ -1,0 +1,54 @@
+﻿@model IEnumerable<HohoTraveltestlagi.Admin>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.AdmName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AdmEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AdmPhNo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Password)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AdmName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AdmEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AdmPhNo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Password)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.AdmID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.AdmID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.AdmID })
+        </td>
+    </tr>
+}
+
+</table>
+<div>
+    @Html.ActionLink("Back to Dashboard", "Dashboard","Admins")
+</div>

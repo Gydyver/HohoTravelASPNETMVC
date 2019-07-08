@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="HohoTraveltestlagiModelStoreContainer" CdmEntityContainer="HohoTraveltestlagiEntities">
+    <EntitySetMapping Name="Admins">
+      <EntityTypeMapping TypeName="HohoTraveltestlagiModel.Admin">
+        <MappingFragment StoreEntitySet="Admin">
+          <ScalarProperty Name="AdmID" ColumnName="AdmID" />
+          <ScalarProperty Name="AdmName" ColumnName="AdmName" />
+          <ScalarProperty Name="AdmEmail" ColumnName="AdmEmail" />
+          <ScalarProperty Name="AdmPhNo" ColumnName="AdmPhNo" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bookings">
+      <EntityTypeMapping TypeName="HohoTraveltestlagiModel.Booking">
+        <MappingFragment StoreEntitySet="Booking">
+          <ScalarProperty Name="BookPrice" ColumnName="BookPrice" />
+          <ScalarProperty Name="BookID" ColumnName="BookID" />
+          <ScalarProperty Name="BookDate" ColumnName="BookDate" />
+          <ScalarProperty Name="PackID" ColumnName="PackID" />
+          <ScalarProperty Name="CustName" ColumnName="CustName" />
+          <ScalarProperty Name="CustEmail" ColumnName="CustEmail" />
+          <ScalarProperty Name="CustPhNum" ColumnName="CustPhNum" />
+          <ScalarProperty Name="TravelDate" ColumnName="TravelDate" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="BookMessage" ColumnName="BookMessage" />
+          <ScalarProperty Name="RekNo" ColumnName="RekNo" />
+          <ScalarProperty Name="RekName" ColumnName="RekName" />
+          <ScalarProperty Name="BookStatus" ColumnName="BookStatus" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Packages">
+      <EntityTypeMapping TypeName="HohoTraveltestlagiModel.Package">
+        <MappingFragment StoreEntitySet="Package">
+          <ScalarProperty Name="PackID" ColumnName="PackID" />
+          <ScalarProperty Name="PackName" ColumnName="PackName" />
+          <ScalarProperty Name="PackTrip" ColumnName="PackTrip" />
+          <ScalarProperty Name="PackPrice" ColumnName="PackPrice" />
+          <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

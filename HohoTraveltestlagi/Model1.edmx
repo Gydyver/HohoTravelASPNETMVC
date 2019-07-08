@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="HohoTraveltestlagiModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Admin">
+          <Key>
+            <PropertyRef Name="AdmID" />
+          </Key>
+          <Property Name="AdmID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="AdmName" Type="varchar" MaxLength="50" />
+          <Property Name="AdmEmail" Type="varchar" MaxLength="50" />
+          <Property Name="AdmPhNo" Type="varchar" MaxLength="50" />
+          <Property Name="Password" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Booking">
+          <Key>
+            <PropertyRef Name="BookID" />
+          </Key>
+          <Property Name="BookID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BookDate" Type="date" />
+          <Property Name="PackID" Type="int" />
+          <Property Name="CustName" Type="varchar" MaxLength="50" />
+          <Property Name="CustEmail" Type="varchar" MaxLength="50" />
+          <Property Name="CustPhNum" Type="varchar" MaxLength="15" />
+          <Property Name="TravelDate" Type="date" />
+          <Property Name="Quantity" Type="int" />
+          <Property Name="BookMessage" Type="varchar(max)" />
+          <Property Name="RekNo" Type="varchar" MaxLength="50" />
+          <Property Name="RekName" Type="varchar" MaxLength="50" />
+          <Property Name="BookStatus" Type="varchar" MaxLength="20" />
+          <Property Name="IsDeleted" Type="varchar" MaxLength="1" />
+          <Property Name="BookPrice" Type="int" />
+        </EntityType>
+        <EntityType Name="Package">
+          <Key>
+            <PropertyRef Name="PackID" />
+          </Key>
+          <Property Name="PackID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="PackName" Type="varchar" MaxLength="50" />
+          <Property Name="PackTrip" Type="varchar(max)" />
+          <Property Name="PackPrice" Type="int" />
+          <Property Name="IsDeleted" Type="varchar" MaxLength="1" />
+        </EntityType>
+        <Association Name="FK__Booking__PackID__145C0A3F">
+          <End Role="Package" Type="Self.Package" Multiplicity="0..1" />
+          <End Role="Booking" Type="Self.Booking" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Package">
+              <PropertyRef Name="PackID" />
+            </Principal>
+            <Dependent Role="Booking">
+              <PropertyRef Name="PackID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="HohoTraveltestlagiModelStoreContainer">
+          <EntitySet Name="Admin" EntityType="Self.Admin" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Booking" EntityType="Self.Booking" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Package" EntityType="Self.Package" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__Booking__PackID__145C0A3F" Association="Self.FK__Booking__PackID__145C0A3F">
+            <End Role="Package" EntitySet="Package" />
+            <End Role="Booking" EntitySet="Booking" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="HohoTraveltestlagiModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Admin">
+          <Key>
+            <PropertyRef Name="AdmID" />
+          </Key>
+          <Property Name="AdmID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AdmName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="AdmEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="AdmPhNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Booking">
+          <Key>
+            <PropertyRef Name="BookID" />
+          </Key>
+          <Property Name="BookID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="BookDate" Type="DateTime" Precision="0" />
+          <Property Name="PackID" Type="Int32" />
+          <Property Name="CustName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CustEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CustPhNum" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="TravelDate" Type="DateTime" Precision="0" />
+          <Property Name="Quantity" Type="Int32" />
+          <Property Name="BookMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="RekNo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="RekName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BookStatus" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="IsDeleted" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Package" Relationship="Self.FK__Booking__PackID__145C0A3F" FromRole="Booking" ToRole="Package" />
+          <Property Name="BookPrice" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Package">
+          <Key>
+            <PropertyRef Name="PackID" />
+          </Key>
+          <Property Name="PackID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PackName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PackTrip" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="PackPrice" Type="Int32" />
+          <Property Name="IsDeleted" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Bookings" Relationship="Self.FK__Booking__PackID__145C0A3F" FromRole="Package" ToRole="Booking" />
+        </EntityType>
+        <Association Name="FK__Booking__PackID__145C0A3F">
+          <End Role="Package" Type="Self.Package" Multiplicity="0..1" />
+          <End Role="Booking" Type="Self.Booking" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Package">
+              <PropertyRef Name="PackID" />
+            </Principal>
+            <Dependent Role="Booking">
+              <PropertyRef Name="PackID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="HohoTraveltestlagiEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Admins" EntityType="Self.Admin" />
+          <EntitySet Name="Bookings" EntityType="Self.Booking" />
+          <EntitySet Name="Packages" EntityType="Self.Package" />
+          <AssociationSet Name="FK__Booking__PackID__145C0A3F" Association="Self.FK__Booking__PackID__145C0A3F">
+            <End Role="Package" EntitySet="Packages" />
+            <End Role="Booking" EntitySet="Bookings" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="HohoTraveltestlagiModelStoreContainer" CdmEntityContainer="HohoTraveltestlagiEntities">
+          <EntitySetMapping Name="Admins">
+            <EntityTypeMapping TypeName="HohoTraveltestlagiModel.Admin">
+              <MappingFragment StoreEntitySet="Admin">
+                <ScalarProperty Name="AdmID" ColumnName="AdmID" />
+                <ScalarProperty Name="AdmName" ColumnName="AdmName" />
+                <ScalarProperty Name="AdmEmail" ColumnName="AdmEmail" />
+                <ScalarProperty Name="AdmPhNo" ColumnName="AdmPhNo" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Bookings">
+            <EntityTypeMapping TypeName="HohoTraveltestlagiModel.Booking">
+              <MappingFragment StoreEntitySet="Booking">
+                <ScalarProperty Name="BookPrice" ColumnName="BookPrice" />
+                <ScalarProperty Name="BookID" ColumnName="BookID" />
+                <ScalarProperty Name="BookDate" ColumnName="BookDate" />
+                <ScalarProperty Name="PackID" ColumnName="PackID" />
+                <ScalarProperty Name="CustName" ColumnName="CustName" />
+                <ScalarProperty Name="CustEmail" ColumnName="CustEmail" />
+                <ScalarProperty Name="CustPhNum" ColumnName="CustPhNum" />
+                <ScalarProperty Name="TravelDate" ColumnName="TravelDate" />
+                <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+                <ScalarProperty Name="BookMessage" ColumnName="BookMessage" />
+                <ScalarProperty Name="RekNo" ColumnName="RekNo" />
+                <ScalarProperty Name="RekName" ColumnName="RekName" />
+                <ScalarProperty Name="BookStatus" ColumnName="BookStatus" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Packages">
+            <EntityTypeMapping TypeName="HohoTraveltestlagiModel.Package">
+              <MappingFragment StoreEntitySet="Package">
+                <ScalarProperty Name="PackID" ColumnName="PackID" />
+                <ScalarProperty Name="PackName" ColumnName="PackName" />
+                <ScalarProperty Name="PackTrip" ColumnName="PackTrip" />
+                <ScalarProperty Name="PackPrice" ColumnName="PackPrice" />
+                <ScalarProperty Name="IsDeleted" ColumnName="IsDeleted" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

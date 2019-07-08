@@ -1,0 +1,40 @@
+﻿@model HohoTraveltestlagi.Admin
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+@using (Html.BeginForm("Login", "Admins", FormMethod.Post))
+{
+    <body>
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+        @if (ViewBag.Message != null)
+        {
+            <div style="border: 1px solid red">
+                @ViewBag.Message
+            </div>
+        }
+
+        <div class="padding-all">
+            <div class="header">
+                <h1>Admin's Login</h1>
+            </div>
+            <div class="design-w3l">
+                <div class="mail-form-agile">
+                    <form action="#" method="post">
+                        @Html.EditorFor(a => a.AdmEmail, new { htmlAttributes = new { @placeholder = "Username" } })
+                        @Html.ValidationMessageFor(a => a.AdmEmail)
+
+                        @Html.PasswordFor(a => a.Password, new { htmlAttributes = new { @placeholder = "Password" } })
+                        @Html.ValidationMessageFor(a => a.Password)
+                        <br><br><br>
+                        <input type="submit" value="login">
+                    </form>
+                </div>
+                <div class="clear"> </div>
+            </div>
+        </div>
+    </body>
+}

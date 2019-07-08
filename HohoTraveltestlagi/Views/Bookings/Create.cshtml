@@ -1,0 +1,70 @@
+﻿@model HohoTraveltestlagi.Models.BookingClass
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br><br><br><br><br>
+<section>
+<div class="main">
+    <div class="main-w3l">
+        <div class="w3layouts-main">
+            <h2><span>Register now</span></h2>
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.CustName, new { htmlAttributes = new { @class = "form-control", @placeholder = "Full name" } })
+                @Html.ValidationMessageFor(model => model.CustName, "", new { @class = "text-danger" })
+
+                @Html.EditorFor(model => model.CustEmail, new { htmlAttributes = new { @class = "form-control", @placeholder = "Email" } })
+                @Html.ValidationMessageFor(model => model.CustEmail, "", new { @class = "text-danger" })
+
+                @Html.EditorFor(model => model.CustPhNum, new { htmlAttributes = new { @class = "form-control", @placeholder = "Phone Number" } })
+                @Html.ValidationMessageFor(model => model.CustPhNum, "", new { @class = "text-danger" })
+
+                @Html.EditorFor(model => model.TravelDate, new { htmlAttributes = new { @class = "form-control", @placeholder = "Travel Date", @id = "datepicker" } })
+                //@Html.ValidationMessageFor(model => model.TravelDate, "", new { @class = "text-danger" })
+
+                @Html.EditorFor(model => model.Quantity, new { htmlAttributes = new { @class = "form-control", @placeholder = "Quantity" } })
+                @Html.ValidationMessageFor(model => model.Quantity, "", new { @class = "text-danger" })
+
+                @Html.EditorFor(model => model.BookMessage, new { htmlAttributes = new { @class = "form-control", @placeholder = "BookMessage" } })
+                @Html.ValidationMessageFor(model => model.BookMessage, "", new { @class = "text-danger" })
+
+                <div class="form-group">
+                    <input type="submit" value="Get Started" name="login">
+                </div>
+            }
+        </div>
+    </div>
+    <br>
+</div>
+</section>
+
+@*@section Styles{
+    @Styles.Render("~/Content/cssjqueryui")
+    }
+
+
+@section Scripts{
+    <script type="text/javascript">
+        @Scripts.Render("~/bundles/jqueryui")
+        @Scripts.Render("~/bundles/jqueryval")
+        @Scripts.Render("~/bundles/modernizr")
+
+        $(document).ready(function () {
+            $('input[type=datetime]').datepicker({
+                dateFormat: "yyyy/MM/dd",
+                changeMonth: true,
+                changeYear: true,
+                yearRange: "-60:+0",
+                minDate: " +3D",
+                maxDate: "+3M +20D"
+            })
+        })
+    </script>
+}*@
+

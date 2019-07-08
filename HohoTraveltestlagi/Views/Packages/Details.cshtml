@@ -1,0 +1,40 @@
+﻿@model HohoTraveltestlagi.Package
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<br><br><br><br><br><br>
+<div style="padding-left:450px; height:550px;">
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.PackName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PackName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PackTrip)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PackTrip)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PackPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PackPrice)
+        </dd>
+
+    </dl>
+
+    @Html.ActionLink("Edit", "Edit", new { id = Model.PackID }) |
+    @Html.ActionLink("Back to List", "Index")
+
+</div>

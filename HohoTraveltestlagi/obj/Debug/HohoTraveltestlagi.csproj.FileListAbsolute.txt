@@ -1,0 +1,180 @@
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\HohoTraveltestlagi.dll.config
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\HohoTraveltestlagi.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\HohoTraveltestlagi.pdb
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\csc.exe
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\csc.exe.config
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\csc.rsp
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\csi.exe
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\csi.rsp
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\System.AppContext.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\System.Collections.Immutable.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\System.IO.FileSystem.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\System.Reflection.Metadata.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\vbc.exe
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\vbc.exe.config
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\vbc.rsp
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\VBCSCompiler.exe
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\roslyn\VBCSCompiler.exe.config
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\Antlr3.Runtime.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\EntityFramework.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\EntityFramework.SqlServer.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\Microsoft.Web.Infrastructure.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\Newtonsoft.Json.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\System.Web.Helpers.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\System.Web.Mvc.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\System.Web.Optimization.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\System.Web.Razor.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\System.Web.WebPages.Deployment.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\System.Web.WebPages.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\System.Web.WebPages.Razor.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\WebGrease.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\EntityFramework.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\EntityFramework.SqlServer.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\System.Web.Helpers.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\System.Web.Mvc.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\System.Web.Optimization.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\System.Web.Razor.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\System.Web.WebPages.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\System.Web.WebPages.Deployment.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\System.Web.WebPages.Razor.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\Newtonsoft.Json.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\Antlr3.Runtime.pdb
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\obj\Debug\HohoTraveltestlagi.csprojAssemblyReference.cache
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\obj\Debug\HohoTraveltestlagi.csproj.CoreCompileInputs.cache
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\obj\Debug\HohoTraveltestlagi.csproj.CopyComplete
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\obj\Debug\HohoTraveltestlagi.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\HohoTraveltestlagi\HohoTraveltestlagi\obj\Debug\HohoTraveltestlagi.pdb
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\HohoTraveltestlagi.dll.config
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\HohoTraveltestlagi.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\HohoTraveltestlagi.pdb
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\csc.exe
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\csc.exe.config
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\csc.rsp
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\csi.exe
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\csi.rsp
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\System.AppContext.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\vbc.exe
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\vbc.exe.config
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\vbc.rsp
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\Antlr3.Runtime.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\EntityFramework.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\EntityFramework.SqlServer.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\Newtonsoft.Json.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\System.Web.Helpers.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\System.Web.Mvc.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\System.Web.Optimization.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\System.Web.Razor.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\System.Web.WebPages.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\System.Web.WebPages.Razor.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\WebGrease.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\EntityFramework.xml
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\EntityFramework.SqlServer.xml
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\System.Web.Helpers.xml
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\System.Web.Mvc.xml
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\System.Web.Optimization.xml
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\System.Web.Razor.xml
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\System.Web.WebPages.xml
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\System.Web.WebPages.Razor.xml
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\Newtonsoft.Json.xml
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\Antlr3.Runtime.pdb
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\obj\Debug\HohoTraveltestlagi.csprojAssemblyReference.cache
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\obj\Debug\HohoTraveltestlagi.csproj.CoreCompileInputs.cache
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\obj\Debug\HohoTraveltestlagi.csproj.CopyComplete
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\obj\Debug\HohoTraveltestlagi.dll
+C:\Users\Rires Sutrisno\Desktop\Project Q8\Part 2\HohoTraveltestlagi\obj\Debug\HohoTraveltestlagi.pdb
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\HohoTraveltestlagi.dll.config
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\HohoTraveltestlagi.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\HohoTraveltestlagi.pdb
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\Antlr3.Runtime.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\EntityFramework.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\EntityFramework.SqlServer.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\Microsoft.Web.Infrastructure.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\Newtonsoft.Json.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\System.Web.Helpers.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\System.Web.Mvc.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\System.Web.Optimization.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\System.Web.Razor.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\System.Web.WebPages.Deployment.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\System.Web.WebPages.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\System.Web.WebPages.Razor.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\WebGrease.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\EntityFramework.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\EntityFramework.SqlServer.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\System.Web.Helpers.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\System.Web.Mvc.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\System.Web.Optimization.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\System.Web.Razor.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\System.Web.WebPages.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\System.Web.WebPages.Deployment.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\System.Web.WebPages.Razor.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\Newtonsoft.Json.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\Antlr3.Runtime.pdb
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\obj\Debug\HohoTraveltestlagi.csprojAssemblyReference.cache
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\obj\Debug\HohoTraveltestlagi.csproj.CoreCompileInputs.cache
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\obj\Debug\HohoTraveltestlagi.csproj.CopyComplete
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\obj\Debug\HohoTraveltestlagi.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\obj\Debug\HohoTraveltestlagi.pdb
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\csc.exe
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\csc.exe.config
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\csc.rsp
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\csi.exe
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\csi.rsp
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\System.AppContext.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\System.Collections.Immutable.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\System.IO.FileSystem.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\System.Reflection.Metadata.dll
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\vbc.exe
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\vbc.exe.config
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\vbc.rsp
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\VBCSCompiler.exe
+G:\KULIAH (CCIT)\SEMESTER 4\Quarter 8\ProjectTravel\Part 2\HohoTraveltestlagi\bin\roslyn\VBCSCompiler.exe.config
